@@ -1,0 +1,229 @@
+/* Universal */
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  height: 4rem;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  top: 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+header nav {
+  padding-right: 1.5rem;
+}
+
+header a {
+  color: grey;
+  padding: 0px .5rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.logo span {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.logo-color {
+  color: grey;
+}
+
+/* Main Header */
+
+.main-header {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+}
+
+.main-header img {
+  width: 60%;
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header-text {
+  width: 40%;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn {
+  width: 100px;
+  height: 32px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+}
+
+/* Info Main */
+
+.info-wrapper {
+  width: 100%;
+  display: flex;
+  padding-left: 1.5rem;
+}
+
+/* Testimonials */
+
+.image-quote {
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+}
+
+.image-quote img {
+  width: 100%;
+}
+
+/* Information Modules */
+
+.sidebar {
+  min-width: 423px;
+  border-left: 1px solid lightgray;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+
+.module {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.module img {
+  width: 35%;
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.campus, .highlight {
+  padding-top: 1rem;
+}
+
+.highlight {
+  background-color: lightgray;
+}
+
+/* Course Offerings */
+
+.course-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.course-wrapper h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.course-container {
+  display: flex;
+  width: 80%;
+  align-content: center;
+  margin-top: 0;
+}
+
+.course-module {
+  width: 33%;
+  background-color: white;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.course-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.course-module img {
+  width: 100%;
+}
+
+/* Featured Thesis */
+
+.feat-wrapper {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.feat-wrapper h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.feat-wrapper .module, .feat-wrapper .sidebar{
+  border: 0;
+}
+
+.info-wrapper .thesis {
+  padding-top: 0;
+}
+
+.image-quote .thesis {
+  padding-top: 0;
+}
+
+.sidebar .thesis {
+  padding-top: 0;
+}
+
+video {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  padding-left: 1.5rem;
+}
+
+footer nav {
+  padding-right: 1.5rem;
+}
