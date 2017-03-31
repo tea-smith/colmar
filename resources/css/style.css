@@ -128,11 +128,11 @@ header a {
   padding-right: 1rem;
 }
 
-.campus, .highlight {
+.module-surround, .module-hilite {
   padding-top: 1rem;
 }
 
-.highlight {
+.module-hilite {
   background-color: lightgray;
 }
 
@@ -226,4 +226,10 @@ footer {
 
 footer nav {
   padding-right: 1.5rem;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+  padding-left: 1rem;
 }
